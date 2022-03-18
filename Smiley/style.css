@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.smiley {
+    background: yellow;
+    height: 30rem;
+    width: 30rem;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    border: 1rem solid black;
+    border-radius: 50%;
+}
+
+.smiley .eye1 {
+    background: black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 50%;
+}
+
+.smiley .eye2{
+    background: black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    border-radius: 50%;
+}
+
+.smiley:hover .eye1, .smiley:hover .eye2{
+    height: 70px;
+    width: 50px;
+}
+
+.smiley .mouth{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 6px solid transparent;
+    border-bottom: 10px solid black;
+    border-radius: 0;
+    transition: 0.1s;
+    top: 30%;
+    left: 50%;
+   
+    transform: translate(-50%);
+}
+
+.smiley .mouth:hover{
+    width: 230px;
+    border-radius: 50%;
+
+}
